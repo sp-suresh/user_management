@@ -1,7 +1,6 @@
 node_modules/
 restart.sh
 test.js
-env.js
 ./logs
 .jshintrc
 ./release
