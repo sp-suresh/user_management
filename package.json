@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000",
-    "start": "pm2 delete UserManagementService && pm2 start ./ecosystem.config.js --env=development && pm2 logs",
+    "start": "pm2 start ./ecosystem.config.js --env=development && pm2 logs",
     "preinstall": "npm i -g pm2 && pm2 install pm2-logrotate"
   },
   "keywords": [
